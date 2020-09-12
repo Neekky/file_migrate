@@ -1,0 +1,50 @@
+{
+  "name": "ts-plus",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.23",
+    "@types/node": "12.12.7",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "axios": "^0.19.0",
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.0",
+    "lodash": "^4.17.15",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "typescript": "3.7.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec ts-node src/view/index.ts",
+    "statement": "nodemon --exec ts-node src/view/statement.ts",
+    "decorator": "nodemon --exec ts-node src/view/decorator.ts",
+    "typeCal": "nodemon --exec ts-node src/view/typeCal.ts",
+    "maxituan": "nodemon --exec ts-node src/view/maxituan.ts",
+    "indexer": "nodemon --exec ts-node src/view/indexer.ts",
+    "thisInTs": "nodemon --exec ts-node src/view/thisInTs.ts",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149"
+  }
+}
